@@ -1,0 +1,38 @@
+body {
+  background-color: #115ff4;
+}
+
+.head-container {
+  background-color: #0848be;
+}
+
+#jeopardy {
+  text-align: center;
+  font-size: 9pt;
+  background-color: rgb(0, 90, 193);
+  color: white;
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+#jeopardy th,
+#jeopardy td {
+  border: solid 1px white;
+  width: 12em;
+  padding: 1em;
+}
+
+th {
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 4em;
+}
+
+td {
+  height: 9em;
+  font-family: Copse, serif;
+}
+
+td:hover {
+  cursor: pointer;
+}
